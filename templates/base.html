@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="brand-container"></div>
+        <div class="header-text" id="header-text">Websites from start to end !
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="nav-text" id="nav-text">Full Stack Web Development
+            <div class="hidden-xl">
+                <div>using Django, Python, Javascript, CSS3 , Html5</div>
+                <div>JQuery, MongoDB, PostgreSQL and many others</div>
+            </div>
+        </div>
+
+        <div class="navbar" id="navbar">
+            <a class="nav1" id="nav" href="{% url 'main:index' %}"><i class="fa fa-home" id="fa-nav-icon"></i>Home</a>
+            {% if '/' == request.path %}
+            <a class="nav2" id="nav" href="#item4"><i class="fa fa-user" id="fa-nav-icon"></i>My Projects</a>
+            {% else %}
+            <a class="nav2" id="nav" href="https://github.com/flo0909"><i class="fa fa-github" id="fa-nav-icon"></i>My
+                GitHub Repo</a>
+            {% endif %}
+            <a class="nav3" id="nav" href="https://www.credential.net/05599120-53f6-4f20-b437-6ca4d0658805"><i class="fa fa-book" id="fa-nav-icon"></i>My credentials</a>
+            <a class="nav4" id="nav" href="{% url 'main:contact' %}"><i class="fa fa-at"
+                    id="fa-nav-icon"></i>Contact</a>
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+    
+    <div class="footer" id="footer">
+        <div class="footer-info1"><p class="footer-info1-text1">Let's Get In Touch!</p>
+            <p class="footer-info1-text2">Interested to get me working for a project? Use the contact form or send a LinkedIn message and I will get back to you as soon as possible!</p></div>
+        <div class="footer-info2">
+            <p class="footer-info2-text1">&copy MyOwnPortfolio 2020</p>
+        </div>
+    </div>
+</body>
+</html>
