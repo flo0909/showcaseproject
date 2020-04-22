@@ -13,7 +13,7 @@ I have used CSS grid for responsivness, JavaScript for sliders, Blender 2.8 and 
 
 **Project Deployed** - https://showcaseproject.herokuapp.com.  
 **Brand Icon credits** - I have used Gimp to create the Brand Logo  
-**Font credits** - I have used few Font Awesome fonts , Roboto , Arial, Helvetica fonts. 
+**Font credits** - I have used few Font Awesome fonts , Roboto , Arial, Helvetica fonts
 **Background credits** - All the credits to Blender 2.8.   
  
 
