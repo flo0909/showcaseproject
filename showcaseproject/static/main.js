@@ -7,7 +7,7 @@ const images = [
     const item1Text = [
         'Improve your web appearance, unleash your potential!',
         'Have a personalized website to suit your needs!',
-        'Save time and let the technology speak for you !',
+        'Save time and let the technology speak for you!',
     ]
     let counter = 0;
         document.getElementById('caret-left').addEventListener('click', function () {

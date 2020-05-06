@@ -304,7 +304,7 @@ body{
     grid-area: item5;
     display:grid;
     grid-template-areas:'item5-container1 ''item5-container1' ;
-    background-color: rgba(255, 247, 213, 0.3);
+    background-image: linear-gradient(rgb(78, 78, 78),rgb(124, 124, 124));
     text-align:center; 
 }
 #item5-text1{
