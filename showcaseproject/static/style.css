@@ -680,19 +680,22 @@ body{
     grid-area: item5;
     display:grid;
     grid-template-areas:'item5-container1 item5-container2';
-    background-color:rgb(51, 51, 51) 
+    background-color:rgb(255, 255, 255) 
 }
 .item5-container1{
     width:99%;
     height:20rem;
-    background-image: linear-gradient(rgb(88, 19, 6),rgb(155, 43, 23));
-    clip-path: polygon(10% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 100%);
+    background:url('/static/img/bkg_spot.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin:1px;
+    border-radius: 2rem;
 }
 #item5-text1{
-    color:white;
+    color:rgb(116, 5, 5);
     font-size:2rem;
-    margin-left:10%;
+    margin-left:3%;
     margin-top:3rem;
 }
 .item5-container1 > ul{
@@ -702,7 +705,7 @@ body{
 .item5-ul1 > li {
     font-size:1.5rem;
     color:white;
-    margin-left:10%;
+    margin-left:3%;
 }
 .item5-container2 > ul{
     list-style: none;
@@ -711,19 +714,22 @@ body{
 .item5-ul2 > li {
     font-size:1.5rem;
     color:white;
-    margin-left:10%;
-    }
+    margin-left:3%;
+}
 .item5-container2{
     width:99%;
     height:20rem;
-    background-image: linear-gradient(rgb(88, 19, 6),rgb(155, 43, 23));
-    clip-path: polygon(10% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 100%);
+    background:url('/static/img/bkg_spot.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
     margin:1px;
 }
 #item5-text2{
-    color:white;
+    color:rgb(116, 5, 5);
     font-size:2rem;
-    margin-left:10%;
+    margin-left:3%;
     margin-top:3rem; 
 }
  /*end item5*/
